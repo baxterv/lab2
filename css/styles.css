@@ -13,36 +13,100 @@ body {
     padding: 10px;
 }
 
-.main {
+p {
+	padding: 15px;
+}
+
+h2 {
+	padding-top: 15px;
+	color: #116189;
+	font-weight: bold;
+	font-size: 20pt;
+}
+
+.content-box {
 	background-color: #FFF;
 	width: 80%;
 	margin: 0 auto;
 	box-shadow: 3px 3px 5px #888;
-
-	;
 }
 
-.icon {
-	background-image: url(../img/logo.png);
-	background position: left top;
-	background-repeat: no-repeat;
-	padding-right: 10px;
+.header {
 	font-family: Boogaloo;
 	font-size: 36px;
-	font-color: #116189;
+	color: #116189;
 	font-weight: bold;
+}
 
+.gears {
+	float: left;
+	margin-right: 20px;
 }
 .motto {
 	font-size: 120%;
 	font-style: italic;
-
+	padding-top: 0%;
+	padding-bottom: 0%;
 }
 
-.bar {
-	border-radius: 5px;
+nav ul {
 	background-color: #D74710;
-	width: 80%;
+	width: 100%;
+	border-radius: 5px;
 	margin: 0 auto;
 
 }
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	display: inline-block;
+	padding: 10px;
+	color: #FFF;
+	font-weight: bold;
+
+}
+
+nav a:link,
+nav a:visited {
+	text-decoration: none;
+}
+
+
+nav a:hover {
+	background-color: #FF9D45;
+	border-radius: 5px;
+}
+
+.factory {
+	float: left;
+	margin-right: 15px;
+}
+
+.shipping {
+	float: right;
+	margin-left 15px;
+}
+
+.footer {
+	
+	border-style:solid;
+	border-top-width: 1px;
+	border-top-color: #BEBEBE;
+	font-style: italic;
+	font-size: 80%;
+}
+
+.team {
+	float: left;
+	padding-right: 5px;
+}
+.name {
+	color: #116189;
+	padding-bottom: 0%;
+	font-weight: bold;
+}
+
+
